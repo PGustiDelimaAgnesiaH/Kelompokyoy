@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:/Users/Dimas RDN/OneDrive/Desktop/New folder/hehe.css">
+    <title>Document</title>
+</head>
+<body>      <!--tr itu membuat baris 
+            dan td itu kolom 
+        for itu menuju apa yang kita tuju misal di sini 
+    for email menuju ke id email itu fungsi for dan funsi si id adlah untuk alamat alamat 
+colspan itu menyatukan baris dan rowspan itu menyatukan kolom 
+type="reset funsi untuk meriset text -->
+    <table border="0" cellspacing="0" cellpadding="5">
+        <form>
+            <h1>Kelompok<span class="y1" >YOY</span></h1>
+      
+            <tr>
+                <td><label for="email">Email Address:</label></td>
+                <td><input type="text" id="email"></td>
+            </tr>
+
+                <br>
+
+            <tr>
+                <td><label for="pw">Password:</label></td>
+                <td><input type="password" id="pw"></td>
+            </tr>
+
+                <br>
+
+            <tr>
+                <td><label for="pria wanita">Gender:</label></td>
+                <td colspan="2"><input type="radio" id="pria" name="jeniskelamin"><label for="pria">Male</label>
+                                <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">Female</label></td>
+            </tr>
+
+                <br>
+
+            <tr>
+                <td><label for="kotakelahiran">Born in:</label></td>
+                <td><select name="" id="kotakelahiran">
+                        <option value="">Jakarta</option>
+                        <option value="">Bandung</option>
+                        <option value="">Yogyakarta</option>
+                    </select>
+                </td>
+            </tr>
+
+                <br>
+
+            <tr>
+                <td><label for="coding gaming olahraga masak">Hobby:</label></td>
+                <td colspan="4"><input type="checkbox" id="coding"><label for="coding">Coding</label>
+                                <input type="checkbox" id="gaming"><label for="gaming">Gaming</label>
+                                <input type="checkbox" id="olahraga"><label for="olahraga">Badminton</label></td>
+            </tr>
+
+                <br>
+
+            <tr>
+                <td><label for="textarea">Your Remarkable Experience:</label></td>
+                <td><textarea name="" id="textarea" cols="21" rows="3"></textarea></td>
+            </tr>
+            
+                <br>
+            
+            <tr>
+                <td colspan="2"><button type="submit">Send!</button></td>
+            </tr>
+
+                <br>
+            
+            <tr>
+                <td colspan="2"><button type="reset">Empty the Form!</button></td>
+            </tr>
+
+        </form>
+        </table>
+    
+</body>
+</html>
